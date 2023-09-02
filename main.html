@@ -13,6 +13,9 @@
         <h1>Gophish Campaign Manager</h1>
     </header>
     <main>
+
+        <label for="campaignName">Campaign Name:</label>
+        <input type="text" id="campaignName" name="campaignName">
         <section id="sendingProfileSection">
             <!-- Select Sending Profile -->
             <label for="sendingProfile">Select Sending Profile:</label>
@@ -48,15 +51,16 @@
                 <!-- Add more options as needed -->
             </select>
         </section>
+        <label for="launchTime">Launch Time:</label>
+        <input type="datetime-local" id="launchTime" name="launchTime">
 
         <button id="startCampaignButton">Start Campaign</button>
 
         <section id="reportSection">
             <!-- Select Campaign for Report -->
             <label for="reportCampaign">Select Campaign for Report:</label>
-            <select id="reportCampaign">
-                <option value="campaign1">Campaign 1</option>
-                <option value="campaign2">Campaign 2</option>
+            <select id="campagneSelect">
+                <option value="#">Select Campaign</option>
                 <!-- Add more options as needed -->
             </select>
 
