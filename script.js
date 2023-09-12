@@ -1,3 +1,7 @@
+if (!localStorage.getItem("userId")) {
+  window.location.href = "./signin.html";
+}
+
 const landingPageSelect = document.getElementById("landing-pages");
 const emailtemplatesSelect = document.getElementById("email-template");
 const sendingProfileSelect = document.getElementById("sending-profile");
@@ -253,4 +257,9 @@ generateReportButtonEl.addEventListener("click", (e) => {
       // Clean up
       window.URL.revokeObjectURL(url);
     });
+});
+
+logoutButton.addEventListener("click", (e) => {
+  localStorage.clear("userId");
+  window.location.reload();
 });
