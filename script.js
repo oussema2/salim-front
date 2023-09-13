@@ -1,6 +1,7 @@
-if (!localStorage.getItem("userId")) {
-  window.location.href = "./signin.html";
-}
+//if (!localStorage.getItem("userId")) {
+
+ // window.location.href = "./signin.html";
+//}
 
 const landingPageSelect = document.getElementById("landing-pages");
 const emailtemplatesSelect = document.getElementById("email-template");

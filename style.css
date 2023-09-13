@@ -1,0 +1,150 @@
+/* Réinitialisation des styles par défaut du navigateur */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Style de base pour le corps de la page */
+  body {
+    background-color: #1a1a1a; /* Fond sombre */
+    color: #fff; /* Texte en blanc */
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style de l'en-tête */
+  header {
+    background-color: #333; /* Fond plus sombre pour l'en-tête */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+  }
+  
+  /* Style pour les sections principales */
+  main {
+    padding: 20px;
+  }
+  
+  /* Style des liens */
+  a {
+    color: #007BFF; /* Lien bleu */
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  a:hover {
+    color: #0056b3; /* Couleur plus foncée au survol */
+    text-decoration: underline;
+  }
+  
+  /* Style des boutons */
+  button {
+    background-color: #007BFF; /* Bleu pour les boutons */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+    border-radius: 5px; /* Coins arrondis */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Légère ombre */
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Bleu plus foncé au survol */
+  }
+  
+  /* Style pour les formulaires */
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  /* Style pour les pieds de page */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Style spécifique pour chaque page (ajoutez des classes ou des identifiants pour chaque page) */
+  /* Exemple : */
+  #heroSection {
+    background-image: url('images/hero-bg.jpg'); /* Image de fond pour la section héros */
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  /* Autres styles spécifiques à ajouter selon vos besoins */
+  
+  /* Style pour les containers */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center; /* Centre le contenu dans le container */
+  }
+  
+  /* Style pour les titres de section */
+  h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-transform: uppercase; /* Texte en majuscules */
+  }
+  
+  /* Style pour les images de fonctionnalités */
+  .feature img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Coins arrondis pour les images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre légère pour les images */
+  }
+  
+  /* Style pour les labels des formulaires */
+  label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  /* Style pour les sélecteurs de formulaire */
+  select, input[type="text"], input[type="email"], input[type="password"], input[type="datetime-local"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  /* Style pour les éléments de formulaire boutons et labels */
+  form button, form label {
+    display: block;
+  }
+  
+  /* Style pour le lien "Create Account" dans la page Sign In */
+  #createAccountLink {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  /* Style pour les messages d'erreur (peut être utilisé pour les futures fonctionnalités) */
+  .error-message {
+    color: #ff0000; /* Rouge pour les messages d'erreur */
+    font-weight: bold;
+  }
+  
