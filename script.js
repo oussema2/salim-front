@@ -1,7 +1,3 @@
-if (!localStorage.getItem("userId")) {
-  window.location.href = "./signin.html";
-}
-
 const landingPageSelect = document.getElementById("landing-pages");
 const emailtemplatesSelect = document.getElementById("email-template");
 const sendingProfileSelect = document.getElementById("sending-profile");
